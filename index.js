@@ -20,6 +20,6 @@ function appendKitten(name){
 function prependKitten(name){
   return [name].concat(kittens);// [name] is the way to put the array in front //of the concat
 }
-function removeLastKitten(){
+function removeLastKitten(name){
   return kittens.slice(-1);
 }
