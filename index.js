@@ -22,5 +22,9 @@ function prependKitten(name){
 }
 function removeLastKitten(name){
   return kittens.slice(0,-1);
-  // wiil work on any length of array, and it will always to return the last //item
 }
+//use 0 to indicate the up until the last one, insted of just -1 which removes //only the last item
+  // function removeLastKitten(name){
+  //return kittens.slice(kittens.length-1);
+  // wiil work on any length of array, and it will always to return the last //item
+//}wiil work on any length of array, and it will always to return the last //item
