@@ -18,5 +18,5 @@ function appendKitten(name){
   return kittens.concat([name]);
 }
 function prependKitten(name){
-  return [name].concat(kittens);
+  return [name].concat(kittens);// [name] is the way to put the array in front //of the concat
 }
