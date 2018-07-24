@@ -21,5 +21,6 @@ function prependKitten(name){
   return [name].concat(kittens);// [name] is the way to put the array in front //of the concat
 }
 function removeLastKitten(name){
-  return kittens.slice(2);
+  return kittens.slice(kittens.length-1);
+  // wiil work on any length of array, and it will always to return the last //item
 }
