@@ -28,4 +28,7 @@ function removeLastKitten(name){
   //return kittens.slice(kittens.length-1);
   // wiil work on any length of array, and it will always to return the last //item
 //}wiil work on any length of array, and it will always to return the last //item
-function 
+function removeFirstKitten(){
+  return kittens.slice(1);
+}
+// slice the item up intil 1
