@@ -31,4 +31,4 @@ function removeLastKitten(name){
 function removeFirstKitten(){
   return kittens.slice(1);
 }
-// slice the item up intil 1
+// slice the item up intil 1 and return everything else in the array
